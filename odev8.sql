@@ -55,41 +55,41 @@ insert into author (name, birthday, email) values ('Lesly', '1959-11-11', null);
 insert into author (name, birthday, email) values ('Nanni', '1917-05-09', 'nclowley1c@gravatar.com');
 insert into author (name, birthday, email) values ('Colline', '2015-12-22', 'cwilcockes1d@oracle.com');
 
-UPDATE emloyee
+UPDATE employee
 SET 
 name = 'Yusuf CANDAN',
 birthday = '1992-11-11',
 email = 'yusuf@candan.com'
 WHERE id = 1;
 
-UPDATE emloyee
+UPDATE employee
 SET 
 name = 'Mehmet CANDAN',
 birthday = '2021-01-02',
 email = 'mehmet@candan.com'
 WHERE id = 2;
 
-UPDATE emloyee
+UPDATE employee
 SET 
 name = 'Ahmet CANDAN',
 birthday = '1992-11-11',
 email = 'ahmet@candan.com'
 WHERE id = 3;
 
-UPDATE emloyee
+UPDATE employee
 SET 
 name = 'Mahmut CANDAN',
 birthday = '1998-2-3',
 email = 'mahmut@candan.com'
 WHERE id = 4;
 
-UPDATE emloyee
+UPDATE employee
 SET 
 name = 'NAZIM CANDAN',
 birthday = '1996-01-01',
 email = 'nazim@candan.com'
 WHERE id = 5;
 
-DELETE FROM emloyee
+DELETE FROM employee
 WHERE id 	IN(6,7,8,9,10)
 RETURNING *;
